@@ -17,7 +17,21 @@
         </div>
         <h2 id="title">One Day</h2>
         <h3 id="artist">Matisyahu</h3>
-        <audio src="music/Matisyahu%20-%20One%20Day.mp3" controls></audio>
+        <audio src="music/Matisyahu%20-%20One%20Day.mp3"></audio>
+        <!-- Progress bar -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">3:27</span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
