@@ -21,6 +21,11 @@ const songs = [
     name: "Searchin",
     displayName: "Searchin",
     artist: "Matisyahu",
+  },
+  {
+    name: "Freestyler",
+    displayName: "Freestyler",
+    artist: "Bomfunk MC's ",
   }
 ];
 
